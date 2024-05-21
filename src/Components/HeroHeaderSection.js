@@ -25,7 +25,7 @@ const HeroHeaderSection = () => {
             <button  className="flex justify-center items-center gap-1 py-3 px-5 sm:ms-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:text-purpleText hover:border-headerBorder hover:bg-headerBg ">
                 <HiOutlinePlayCircle className='text-lg'/>Demo
             </button>  
-            <button className="inline-flex justify-center items-center gap-1 py-3 px-5 text-base font-medium text-center  text-white rounded-lg bg-purpleText hover:bg-hoverBtn  ">
+            <button className="inline-flex justify-center items-center gap-1 py-3 px-5 text-base font-medium text-center  text-black rounded-lg bg-purpleText hover:bg-hoverBtn  ">
                 Sign up 
                 
             </button>
@@ -37,12 +37,12 @@ const HeroHeaderSection = () => {
         <div className="md:absolute md:bottom-0 w-full bg-white h-60 py-10 px-4 flex flex-col justify-center items-center">
             <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48">Join 4,000+ companies already growing</p>
             <div className="flex gap-2 mx-auto justify-center flex-wrap">
-                <img src={boltShift} alt="boltShift logo" className="h-12 p-3  cursor-pointer" />
-                <img src={lightBox} alt="lightBox logo" className="h-12 p-3 cursor-pointer" />
-                <img src={featherBox} alt="featherBox logo" className="h-12 p-3 cursor-pointer" />
-                <img src={spherule} alt="spherule logo" className="h-12 p-3 cursor-pointer" />
-                <img src={globalBank} alt="globalBank logo" className="h-12 p-3 cursor-pointer" />
-                <img src={nietzsche} alt="nietzsche logo" className="h-12 p-3 cursor-pointer" />
+                <img src={boltShift} alt="boltShift logo" className="h-12 p-1  cursor-pointer" />
+                <img src={lightBox} alt="lightBox logo" className="h-12 p-1 cursor-pointer" />
+                <img src={featherBox} alt="featherBox logo" className="h-12 p-1 cursor-pointer" />
+                <img src={spherule} alt="spherule logo" className="h-12 p-1 cursor-pointer" />
+                <img src={globalBank} alt="globalBank logo" className="h-12 p-1 cursor-pointer" />
+                <img src={nietzsche} alt="nietzsche logo" className="h-12 p-1 cursor-pointer" />
             </div>
 
         </div>
