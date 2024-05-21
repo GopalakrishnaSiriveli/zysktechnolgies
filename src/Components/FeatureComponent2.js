@@ -21,7 +21,7 @@ const FeatureComponent2 = () => {
     <div className='flex justify-center m-5 mt-10 '>
         <img src={headerImg} alt='headerImage' className=' border-4 border-black rounded-xl shadow-2xl' style={{width:'768px', height:'512px'}}/>
     </div>
-    <div style={{position:'relative',top:'-458px',left:'14%'}}>
+    <div style={{position:'relative',top:'-458px',left:'-14%'}}>
         <img src={iphone} alt='iphone img' style={{width:'244px',height:'497.34px'}}/>
     </div>
    
